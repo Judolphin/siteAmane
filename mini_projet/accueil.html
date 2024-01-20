@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Accueil - Assistances technologiques pour les malvoyants</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="accessibilite">
+    <header>
+      <!-- En-tête de la section Accueil -->
+      <nav>
+        <a href="accueil.html">Accueil</a>
+        <a href="aides_techniques.html">Aides Techniques</a>
+        <a href="defis.html">Défis</a>
+        <a href="perspectives.html">Perspectives</a>
+        <a href="sitographie.html">Sitographie</a>
+        <div id="accessibility-menu">
+          <button class="accessibility-button" onclick="toggleAccessibilityMenu()">Accessibilité</button>
+          <div class="menu-options">
+            <button onclick="increaseFontSize()">Agrandir le Texte</button>
+            <button onclick="decreaseFontSize()">Réduire le Texte</button>
+            <div class="contrast-options">
+              <label for="contrast-select">Choix de contraste :</label>
+              <select id="contrast-select" onchange="changeContrast()">
+                <option value="blue">Bleu sur Jaune</option>
+                <option value="jaune">Jaune sur Bleu</option>
+                <option value="noir">Noir sur Blanc</option>
+                <option value="blanc">Blanc sur Noir</option>
+                <!-- Ajoutez d'autres options si nécessaire -->
+              </select>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <h2 id ="titre"> Bienvenue sur notre site sur les technologies d'assistance pour les malvoyants</h2> 
+		 <section id="image">
+       	<img src="multi_media\tele_agrendisseur.jpg" alt="Télé agrandisseur Presto pour malvoyants">
+	    <img src="multi_media\materiels.jpg" alt="Différent matériels pour malvoyants">
+	   </section>
+		
+		<section id="accueil">
+	   <p>Nous sommes dédiés à fournir des informations complètes sur les technologies d'assistance disponibles pour les personnes malvoyantes.</p>
+        <p>Découvrez les dernières avancées, explorez les différentes options disponibles et comprenez comment ces technologies peuvent améliorer la qualité de vie des malvoyants.</p>
+        <p>Naviguez à travers les sections du site pour en apprendre davantage sur les loupes électroniques, les logiciels de lecture d'écran, les applications mobiles, les systèmes de guidage, les défis et les perspectives futures.</p>
+      
+	  <a href="index.html" class="retour-btn">Retour</a>
+      </section>
+    </main>
+    <footer>
+      <!-- Pied de page de la section Accueil -->
+<p>Contactez-nous
+	    <a href="mailto:contact@votreentreprise.com">Email</a>
+		<a href="tel:+123456789">Téléphone</a>
+		<a href="https://www.facebook.com/votreentreprise">Facebook</a>
+	</p> 
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+/* Styles pour la mise en page */
+  
+  #accessibilite nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+h2 {
+  text-align: center;
+   font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color:black ; 
+  background-color: #FFFFFF; 
+}
+
+header {
+  background-color: #fff; /* Fond blanc */
+  color: #000; /* Texte noir */
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+section {
+  padding: 50px;
+}
+
+/* Styles pour les contrastes */
+.high-contrast1 {
+  color: blue;
+  background-color: yellow;
+}
+.high-contrast2 {
+  color: yellow; /* Texte jaune */
+  background-color: #B0C4DE; /* Fond bleu clair */
+}
+
+.high-contrast3 {
+  color: black;
+  background-color: white;
+}
+
+.high-contrast4 {
+  color: white;
+  background-color: black;
+}
+
+/* Styles pour le menu d'accessibilité */
+nav {
+  background-color: #B0C4DE;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.retour-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/* Styles pour le menu d'accessibilité */
+  #accessibility-menu {
+    display: flex;
+    align-items: center;
+  }
+
+#accessibility-menu button {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  display: block;
+  width: 150px;
+  text-align: left;
+}
+/* Styles pour les options de contraste dans le menu d'accessibilité */
+#accessibility-menu .menu-options {
+  display: none; /* Cache initialement le menu d'options */
+  position: absolute; /* Ajuste la position du menu */
+  background-color: #fff; /* Couleur de fond du menu */
+  border: 1px solid #ccc; /* Bordure du menu */
+  padding: 10px; /* Espacement interne du menu */
+}
+
+#accessibility-menu .menu-options button {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%; /* Remplir horizontalement le conteneur */
+  text-align: left;
+}
+
+#accessibility-menu .menu-options .contrast-options {
+  display: block; /* Affichage des options de contraste */
+}
+/* Ajoutez ces styles dans votre fichier style.css */
+#image {
+  display: flex;
+  justify-content: space-around; /* Ajustez la valeur selon vos préférences de disposition */
+  align-items: center; /* Centre les éléments verticalement */
+}
+
+#image img {
+  max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
+  height: auto; /* Garantit que l'image conserve son aspect ratio */
+}

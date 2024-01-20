@@ -1,0 +1,57 @@
+<!doctype html>
+<html  lang="fr" >
+<head>
+  <meta charset="utf-8">
+  <title>Assistances technologiques pour les malvoyants</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<div id="accessibilite">
+	<header>
+   <nav>
+        <a href="accueil.html">Accueil</a>
+        <a href="aides_techniques.html">Aides Techniques</a>
+        <a href="defis.html">Défis</a>
+        <a href="perspectives.html">Perspectives</a>
+        <a href="sitographie.html">Sitographie</a>
+        <div id="accessibility-menu">
+          <button class="accessibility-button" onclick="toggleAccessibilityMenu()">Accessibilité</button>
+          <div class="menu-options">
+          </div>
+        </div>
+   </nav>
+   
+   <!-- En-tête de la section Perspectives -->
+		<h2>Sites utilisés:</h2>
+		<p>Ce travail a été basé sur les sites suivants:</p>
+	</header>
+
+  <main>
+    <section id="accueil">
+      
+	<p>1.<a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj7osSr1tqDAxVvR0ECHReECVkYABA6GgJ3cw&ase=2&gclid=Cj0KCQiAhomtBhDgARIsABcaYynJIWyN02Cp1eG9eqXUqH-M2G56y3FKqA-ozKzA_-x4e2gsOLG0meEaAh4NEALw_wcB&ohost=www.google.com&cid=CAESVuD2gJiQrOJ3DWyRu2Dz8PdlGBKLfI2QCJA-4siUiABJfh0erVnAm2Ov2ydcsgU5n_qMugyqv3yZ7g3kCdgBxNAy7KwmgIXNA29bb9Ap5ldEcEWuLx3n&sig=AOD64_1lByRtEBoDJcist2RjAA1lz2OvGA&q&nis=4&adurl&ved=2ahUKEwjv5b6r1tqDAxXmaqQEHXuRC90Q0Qx6BAgJEAE" target="_blank">OrCam Read 3</a></p>
+   <p>2.<a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj7osSr1tqDAxVvR0ECHReECVkYABAyGgJ3cw&ase=2&gclid=Cj0KCQiAhomtBhDgARIsABcaYykhPuav4AXlcdVRlVC7-xCrLhQKWKLe0R1cCmMz2NvsG3w8KVkPB_UaAh-8EALw_wcB&ohost=www.google.com&cid=CAESVuD2gJiQrOJ3DWyRu2Dz8PdlGBKLfI2QCJA-4siUiABJfh0erVnAm2Ov2ydcsgU5n_qMugyqv3yZ7g3kCdgBxNAy7KwmgIXNA29bb9Ap5ldEcEWuLx3n&sig=AOD64_1O1I7wglcMTkAG7qcr8KVsXuyDJw&ctype=5&q=&nis=4&ved=2ahUKEwjv5b6r1tqDAxXmaqQEHXuRC90Q9aACKAB6BQgCEIsD&adurl=">NAVIGUEO + Eoguidage</a></p>
+	<p>3.<a href="https://apps.apple.com/us/app/seeing-assistant-move/id625286820">Seeing Assistant Move</a></p>
+	<p>4.<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fac-optique.com%2Fspecialiste-basse-vision-loupes%2F&psig=AOvVaw0qLcx7F6V85sXLYWhC_MCR&ust=1705500247819000&source=images&cd=vfe&ved=0CBQQjhxqFwoTCPCy69yJ4oMDFQAAAAAdAAAAABAa"> Fac Optique Paris5</a></p>
+	<p>5.<a href="https://www.nvda.fr/doc/userGuide.html">Guide utilisateur NVDIA</a></p>
+	<p>6.<a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwinou6OkOKDAxVLFgYAHZ2XBHUYABAOGgJ3cw&ase=2&gclid=CjwKCAiA75itBhA6EiwAkho9e_mDIBnkUVpI_IFORomdTEQDRrbxXo6IGEasCjwbxO3eyX66G6QMQRoCu3sQAvD_BwE&ei=nJOmZdiUC-iPkdUPrZqu0As&ohost=www.google.com&cid=CAESVuD2XDn-EhTTi5giX02fakhMRAS_VKSI0xwUv3Iab0wNhVcltw8H4ToI5l68Oio_dH0aguYFoqzmqse5aoi2lG_Szcgy0yq61PqzVxizEJfLLSahRxam&sig=AOD64_10kyYbjEboDmoBiYgZDNRthIhdjQ&ctype=5&q=&nis=4&sqi=2&ved=2ahUKEwjY0ueOkOKDAxXoR6QEHS2NC7oQ9aACKAB6BAgCEBA&adurl=">Loupe parlante</a></p>
+	<p>7.<a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiCzYH2nuSDAxV4kmgJHSESD3wYABAAGgJ3Zg&ase=2&gclid=CjwKCAiAkp6tBhB5EiwANTCx1A_DcZFFlEtsuaUlR81yQdRVPJ-QsaFuGv1gI2WFB0QhsoLv4MslNRoCbzcQAvD_BwE&ohost=www.google.com&cid=CAESVuD2jyNr72DWyqVZMhpoHRCp_pja8fbpNNB6Vu6AtEq5ELvo370-3AZCo5VgNPJCLd3xmPIzES1rtv1ZOdL7I-jZlVsIEzRYz-Bwt7KQoWkzdBRZdYWC&sig=AOD64_2CQBp4uZH3y0F3p77rPCKeeEwHGg&q&nis=4&adurl&ved=2ahUKEwjV-vr1nuSDAxWMU6QEHewfDn0Q0Qx6BAgNEAE">Les dix meilleures appliquations de téléphonie pour malvoyants</a></p>
+	<a href="index.html" class="retour-btn">Retour</a> <!-- Bouton de retour vers la page d'accueil -->
+    </section>
+	//liens d'evitement pour menter et descendre
+	//responcive design
+	//fill d'arian
+	//entete menu code menu dans un seule fichier.php il suffit d'ajouter include en html pour appeller le fichier directement
+	//
+  </main>"
+
+  <footer>
+<p>Contactez-nous
+	    <a href="mailto:contact@votreentreprise.com">Email</a>
+		<a href="tel:+123456789">Téléphone</a>
+		<a href="https://www.facebook.com/votreentreprise">Facebook</a>
+	</p>   </footer>
+</div>
+</body>
+</html>
